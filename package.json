@@ -1,0 +1,32 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "It creates a qr code",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-builder -w"
+  },
+  "author": {
+    "name": "RANDOM cosmos",
+    "email": "srijanwhat2@gmail.com"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Random-COSMOS/QR-generator",
+  "devDependencies": {
+    "electron": "^8.0.3"
+  },
+  "build": {
+    "appId": "com.random.qr",
+    "productName": "QR generator",
+    "copyright": "Copyright © 2020 RANDOM cosmos",
+    "win": {
+      "icon": "./assets/ICON.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "createDesktopShortcut": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
