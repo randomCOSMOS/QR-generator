@@ -6,7 +6,7 @@ function makeCode() {
     qrcode.makeCode(elText.value);
 }
 
-document.getElementById('text').addEventListener('keydown', (e) => {
+document.getElementById('text').addEventListener('keydown', e => {
     if (e.keyCode == 13) {
         makeCode();
     }
