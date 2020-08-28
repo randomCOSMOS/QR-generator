@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": "https://github.com/Random-COSMOS/QR-generator",
   "devDependencies": {
-    "electron": "^9.2.1"
+    "electron": "^10.1.0"
   },
   "build": {
     "appId": "com.random.qr",
